@@ -10,33 +10,33 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		//1 : Kieu du lieu
-		// int , float , double , char, boolean  : Nh�m ngu?i nguy�n th?y(Primities)
-		// Kh�ng c� phuong th?c cho vi?c chuy?n d?i d? li?u
+		// int , float , double , char, boolean  : Nhóm người nguyên thủy(Primities)
+		// Không có phương thức cho việc chuyển đổi dữ liệu
 		// int a;
 		// int b;
 		// int c = a + b;
 		// System.out.print(c);
-		// String , Integer ,Float , Double ,Boolean : Nh�m ngu?i hi?n d?i(Object)
-		// H? tr? ngu?i d�ng trong vi?c chuy?n d?i d? li?u
+		// String , Integer ,Float , Double ,Boolean : Nhóm người hiện đại(Object)
+		// Hỗ trợ người dùng trong việc chuyển đổi dữ liệu
 		// ctrl + / : comment code
 		// Integer a;
 		// Integer b;
 		// Integer c = a + b;
 		// System.out.print(c);
-		// Khi t?o ra object m� kh�ng g�n gi� tr? : null ""
+		// Khi tạo ra object mà không gán giá trị : null ""
 		
-		//2 : Khai b�o bi?n: camelcase
+		//2 : Khai báo biến: camelcase
 		//3 : + , - , ++ , -- 
-		// To�n t? 1 ng�i : a + b , a - b + c 
-		// (Kh�ng du?c g?i t�n l� 1 ng�i v� ko c� t�nh d?i di?n) 
-		// To�n t? 2 ng�i : a++ , ++a , a-- , --a
-		// (Kh�ng du?c g?i t�n l� 1 ng�i v� ko c� t�nh d?i di?n) 
-		// To�n t? 3 ng�i : di?u ki?n ? true : false
+		// Toán tử 1 ngôi : a + b , a - b + c 
+		// (Không được gọi tên là 1 ngôi vì ko có tính đại diện) 
+		// Toán tử 2 ngôi : a++ , ++a , a-- , --a
+		// (Không được gọi tên là 1 ngôi vì ko có tính đại diện) 
+		// Toán tử 3 ngôi : điều kiện ? true : false
 		
 		// int a = 5;
-		// C�ch 1 : int b = a + 1;
+		// Cách 1 : int b = a + 1;
 		// a += 1 ==  a + 1;
-		// C�ch 2 : int b = a 
+		// Cách 2 : int b = a 
 		// int b = ++a;
 		// System.out.print(b);
 		// System.out.print(a);
