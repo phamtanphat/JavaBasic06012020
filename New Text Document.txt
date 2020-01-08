@@ -61,5 +61,28 @@ class Ideone
 		// 6 +   9 + 9 - 6 + 10 +   8 - 4 + 8 + 4			a : 4 , b : 8
 		// 9 + 9 + 10 + 8 + 8
 		// 18 + 16 + 10 = 44
+		
+		// Toán tử so sánh
+		// Câu điều kiện
+		int a = 5;
+		if(a > 5) System.out.print("A lớn 5");
+		else if (a == 5) System.out.print("A bằng 5");
+		else System.out.print("A khác 5");
+		
+		
+		// Block scope : pham vi thực câu lệnh
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
