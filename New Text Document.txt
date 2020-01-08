@@ -81,10 +81,19 @@ class Ideone
 		// a > 5 ? "A lớn hơn 5" : "A khác 5";
 		// a == 5 : "A bằng 5" : "A khác 5"
 		
-		int a = 4;
+		// int a = 4;
 		// Không tối ưu cho việc duy trì và phát triển
-		String alert = 	a > 5 ? "A lớn hơn 5" : ( a == 5 ? "A bằng 5" : "A nhỏ 5");
-		System.out.print(alert);
+		// String alert = 	a > 5 ? "A lớn hơn 5" : ( a == 5 ? "A bằng 5" : "A nhỏ 5");
+		// System.out.print(alert);
+		
+		// Toán tử quan hệ : && ||
+		int a = 5;
+		int b = 6;
+		if(a > 5 || b > 5){
+			System.out.print(" A và B đều lớn hơn 5");
+		}else{
+			System.out.print("A hoặc B nhỏ hơn hoặc bằng 5");
+		}
 		
 		
 		
