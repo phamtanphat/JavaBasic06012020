@@ -1,0 +1,55 @@
+/* package whatever; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		//1 : Kieu du lieu
+		// int , float , double , char, boolean  : Nhóm ngu?i nguyên th?y(Primities)
+		// Không có phuong th?c cho vi?c chuy?n d?i d? li?u
+		// int a;
+		// int b;
+		// int c = a + b;
+		// System.out.print(c);
+		// String , Integer ,Float , Double ,Boolean : Nhóm ngu?i hi?n d?i(Object)
+		// H? tr? ngu?i dùng trong vi?c chuy?n d?i d? li?u
+		// ctrl + / : comment code
+		// Integer a;
+		// Integer b;
+		// Integer c = a + b;
+		// System.out.print(c);
+		// Khi t?o ra object mà không gán giá tr? : null ""
+		
+		//2 : Khai báo bi?n: camelcase
+		//3 : + , - , ++ , -- 
+		// Toán t? 1 ngôi : a + b , a - b + c 
+		// (Không du?c g?i tên là 1 ngôi vì ko có tính d?i di?n) 
+		// Toán t? 2 ngôi : a++ , ++a , a-- , --a
+		// (Không du?c g?i tên là 1 ngôi vì ko có tính d?i di?n) 
+		// Toán t? 3 ngôi : di?u ki?n ? true : false
+		
+		// int a = 5;
+		// Cách 1 : int b = a + 1;
+		// a += 1 ==  a + 1;
+		// Cách 2 : int b = a 
+		// int b = ++a;
+		// System.out.print(b);
+		// System.out.print(a);
+		// + - / * ++ --
+		// 1 : ++ --
+		// 2 : / *
+		// 3 : + -
+		int a = 5;
+		int b = 10;
+		
+		int c = ++a + --b + b++ - a-- + b-- + --b - --a + b-- + a++
+		//6 + --b + b++ - a-- + b-- + --b - --a + b-- + a++
+		
+		
+	}
+}
