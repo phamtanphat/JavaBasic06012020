@@ -51,7 +51,17 @@ class Ideone
 				return;
 		}
 		
+			// 5 : Vong lap for
+		// Mang : Array
+		// int numberArrays[]
+							//0,1,2,3,4,5,6,7,8
+		int[] numberArrays = {1,2,3,4,5,6,7,8,9};
 		
+		String[] nameArrays = {"Teo","Ti","Tun"};
+		
+		// Gan lai gia tri cho phan tu
+		// numberArrays[1] = 10;
+		System.out.print(numberArrays.length);
 		
 		
 		
