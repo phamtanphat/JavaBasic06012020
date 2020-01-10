@@ -39,7 +39,17 @@ class Ideone
 				System.out.println("A khong thuoc gia tri tu 1 den 5");
 				return;
 		}
-		
+		boolean isChecked = false;
+		// 4 : Cau dieu kien switch case
+		// Khong ho tro cho gia tri true false
+		switch(isChecked){
+			case true : 
+				System.out.println("A da check");
+				return;
+			case false : 
+				System.out.println("A chua check");
+				return;
+		}
 		
 		
 		
