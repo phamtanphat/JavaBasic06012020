@@ -63,6 +63,9 @@ class Ideone
 		// numberArrays[1] = 10;
 		System.out.print(numberArrays.length);
 		
+		for(int i = 0 ; i < numberArrays.length ; i++){
+			System.out.println(numberArrays[i]);
+		}
 		
 		
 	}
