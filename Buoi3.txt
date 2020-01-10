@@ -73,6 +73,13 @@ class Ideone
 		for (int value : numberArrays){
 			System.out.print(value);
 		}
-		
+		int i = 0;
+		while( i < 10){
+			if(i == 5){
+				i++;
+				continue;
+			}
+			System.out.println(i++);
+		}
 	}
 }
